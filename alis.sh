@@ -1874,7 +1874,6 @@ function main() {
         execute_step "display_driver"
     fi
     execute_step "kernels"
-    execute_step "network"
     if [ "$VIRTUALBOX" == "true" ]; then
         execute_step "virtualbox"
     fi
